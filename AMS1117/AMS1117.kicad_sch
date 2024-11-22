@@ -1,0 +1,70 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d6eee423-2a55-45ad-a749-7df2395c1501")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 19.05 15.24)
+		(size 13.97 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18c18bcb-7cad-4433-83e1-269ce5efd3b2")
+		(property "Sheetname" "LDO_3V3_AMS1117"
+			(at 16.51 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LDO_3V3_AMS1117.kicad_sch"
+			(at 12.192 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 33.02 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf70ec03-7869-40bc-9fd3-5773cb462139")
+		)
+		(pin "VCC" input
+			(at 19.05 19.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6e7bd81c-8c05-4fc9-bd09-dd4728143d5b")
+		)
+		(instances
+			(project "AMS1117"
+				(path "/d6eee423-2a55-45ad-a749-7df2395c1501"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
