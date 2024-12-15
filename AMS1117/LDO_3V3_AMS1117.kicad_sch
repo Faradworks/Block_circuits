@@ -926,7 +926,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "991406b3-21ac-4dea-abbb-1d4d1fe32ebe")
+			(uuid "4edb8dff-16df-4496-93fc-bb1e5a4dd05b")
 		)
 		(instances
 			(project "AMS1117"
@@ -992,10 +992,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7df81d6-2a9e-40ab-b6f8-7f29e19d9f8d")
+			(uuid "960ee386-7240-41a8-a080-754efcf748e5")
 		)
 		(pin "2"
-			(uuid "e5a829f1-ef53-40c7-929d-929377b09bbc")
+			(uuid "b7e749de-eb30-4640-af6d-0d32254f02c4")
 		)
 		(instances
 			(project "AMS1117"
@@ -1060,7 +1060,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e88a64d1-43f6-43aa-96fe-7e8524be7e5d")
+			(uuid "27e092f8-6eca-4d1f-a848-de875afca656")
 		)
 		(instances
 			(project "AMS1117"
@@ -1125,7 +1125,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "deae4f4b-3a16-4b3a-8e8e-970ceb1d70f3")
+			(uuid "dc29c6c9-2784-4bd9-a9bb-5d51b6874454")
 		)
 		(instances
 			(project "AMS1117"
@@ -1191,10 +1191,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dbee17d5-3d8c-42b6-9a01-61ed45493a7f")
+			(uuid "ad884d91-399c-4bf9-ac1b-830d8b19cd4e")
 		)
 		(pin "2"
-			(uuid "efd3353f-9ab4-431c-9c68-6116712cdf34")
+			(uuid "bb85e5e1-d947-41c2-8654-a7ae01e2dab3")
 		)
 		(instances
 			(project "AMS1117"
@@ -1259,7 +1259,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "975dfbfb-fb9c-4963-b360-60a86a849d9a")
+			(uuid "6c378541-66f0-4cc7-abb4-b04ef284d000")
 		)
 		(instances
 			(project "AMS1117"
@@ -1323,13 +1323,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "46ac6206-e3f1-4fad-9754-c9a9296ad0a7")
+			(uuid "d70f90b0-2325-4fe1-bc2c-3fc9966d8706")
 		)
 		(pin "2"
-			(uuid "1177e225-27d4-4461-bf6c-4e1570ec645b")
+			(uuid "cd17ce39-fb35-481c-998f-4a96223beb98")
 		)
 		(pin "3"
-			(uuid "3cc293f6-6a8a-46ee-9869-113683434320")
+			(uuid "87b9e3f1-57b2-4632-bd44-7c7551d61589")
 		)
 		(instances
 			(project "AMS1117"
@@ -1395,10 +1395,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "194f7b97-2248-4463-8876-ffe2601875b7")
+			(uuid "fe2d87fd-516f-49cc-85e0-30d265a69016")
 		)
 		(pin "2"
-			(uuid "31f25f58-ad5a-4ab3-a542-117b9c917cb8")
+			(uuid "860f02f9-80d2-44c8-9b02-59feda713a77")
 		)
 		(instances
 			(project "AMS1117"
@@ -1464,10 +1464,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2856d3c5-d8bd-46ad-9cf9-ba6060f3991c")
+			(uuid "1afb6991-13f3-4846-b4f4-563a2909e1db")
 		)
 		(pin "2"
-			(uuid "b89646e2-9574-4fa3-ad3b-3811faf3fc54")
+			(uuid "da05686f-c9b6-4164-a303-78ac421227b7")
 		)
 		(instances
 			(project "AMS1117"
