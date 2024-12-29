@@ -5,40 +5,8 @@
 	(uuid "d6eee423-2a55-45ad-a749-7df2395c1501")
 	(paper "A4")
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 63.5 41.91) (xy 60.96 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ab0a2e-39c5-4fb5-ac43-ef6bb0c5c10c")
-	)
-	(global_label "3v3"
-		(shape input)
-		(at 63.5 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52d25be3-b7ca-4e0f-a282-8664a9c429f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.8718 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(sheet
-		(at 46.99 38.1)
+		(at 54.61 39.37)
 		(size 13.97 7.62)
 		(stroke
 			(width 0.1524)
@@ -48,8 +16,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "18c18bcb-7cad-4433-83e1-269ce5efd3b2")
-		(property "Sheetname" "LDO_3V3_AMS1117_"
-			(at 44.45 37.592 0)
+		(property "Sheetname" "LDO_3V3_AMS1117_?"
+			(at 52.07 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,7 +26,7 @@
 			)
 		)
 		(property "Sheetfile" "LDO_3V3_AMS1117.kicad_sch"
-			(at 40.132 46.482 0)
+			(at 47.752 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,7 +35,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 60.96 41.91 0)
+			(at 68.58 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +45,7 @@
 			(uuid "cf70ec03-7869-40bc-9fd3-5773cb462139")
 		)
 		(pin "VCC" input
-			(at 46.99 41.91 180)
+			(at 54.61 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
