@@ -868,7 +868,7 @@
 		)
 		(uuid "62092cf9-df95-40d3-b67f-ab2535589ddd")
 	)
-	(hierarchical_label "VCC"
+	(hierarchical_label "IN"
 		(shape input)
 		(at 125.73 95.25 90)
 		(fields_autoplaced yes)
@@ -892,7 +892,7 @@
 		)
 		(uuid "62bbd6f0-4255-47a8-8cea-827a494a64cf")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "OUT"
 		(shape output)
 		(at 163.83 95.25 90)
 		(fields_autoplaced yes)
