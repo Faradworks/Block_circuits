@@ -35,7 +35,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 68.58 43.18 0)
+			(at 68.58 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +45,7 @@
 			(uuid "cf70ec03-7869-40bc-9fd3-5773cb462139")
 		)
 		(pin "VCC" input
-			(at 54.61 43.18 180)
+			(at 54.61 41.91 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,6 +53,16 @@
 				(justify left)
 			)
 			(uuid "6e7bd81c-8c05-4fc9-bd09-dd4728143d5b")
+		)
+		(pin "GND" bidirectional
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4533baa0-8b0f-4ec5-99bb-e32816c0e3dc")
 		)
 		(instances
 			(project "AMS1117"

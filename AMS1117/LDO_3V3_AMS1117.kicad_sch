@@ -719,6 +719,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 110.49) (xy 170.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32eebaaa-a294-4fc5-b30b-839ca98fd19c")
+	)
+	(wire
+		(pts
 			(xy 125.73 109.22) (xy 125.73 110.49)
 		)
 		(stroke
@@ -756,6 +766,16 @@
 			(type default)
 		)
 		(uuid "7d575560-4bfb-4396-8dcb-f197ce8907a3")
+	)
+	(wire
+		(pts
+			(xy 170.18 109.22) (xy 172.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864eb313-d5fe-4c13-bf07-0e3ee7f0cefc")
 	)
 	(wire
 		(pts
@@ -859,6 +879,18 @@
 			(justify left)
 		)
 		(uuid "23a76d3d-59e6-4ad4-8391-e28ff18867a4")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 172.72 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62bbd6f0-4255-47a8-8cea-827a494a64cf")
 	)
 	(hierarchical_label "3V3"
 		(shape output)
@@ -1066,6 +1098,71 @@
 			(project "AMS1117"
 				(path "/d6eee423-2a55-45ad-a749-7df2395c1501/18c18bcb-7cad-4433-83e1-269ce5efd3b2"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "828ac097-25f0-48a7-9d00-381e72911b2b")
+		(property "Reference" "#PWR01"
+			(at 170.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.307 114.8842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22729277-7838-4604-9127-7984a21276cf")
+		)
+		(instances
+			(project "AMS1117"
+				(path "/d6eee423-2a55-45ad-a749-7df2395c1501/18c18bcb-7cad-4433-83e1-269ce5efd3b2"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
