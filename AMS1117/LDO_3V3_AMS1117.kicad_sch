@@ -868,7 +868,7 @@
 		)
 		(uuid "62092cf9-df95-40d3-b67f-ab2535589ddd")
 	)
-	(hierarchical_label "IN"
+	(hierarchical_label "PIN"
 		(shape input)
 		(at 125.73 95.25 90)
 		(fields_autoplaced yes)
@@ -892,7 +892,7 @@
 		)
 		(uuid "62bbd6f0-4255-47a8-8cea-827a494a64cf")
 	)
-	(hierarchical_label "OUT"
+	(hierarchical_label "POUT"
 		(shape output)
 		(at 163.83 95.25 90)
 		(fields_autoplaced yes)
@@ -1483,6 +1483,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
 			(at 125.73 101.6 0)
 			(effects
 				(font
