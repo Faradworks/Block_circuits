@@ -1,0 +1,42 @@
+{
+    "ID": "DRV8825_Stepper_Driver_Socket",
+    "Name": "DRV8825 Stepper Motor Driver Socket",
+    "Description": "A stepper motor driver socket based on the DRV8825 module, providing step and direction control for stepper motors.",
+    "Schematic_URL": "STEPPER_DRIVER_SOCKET.kicad_sch",
+    "MPN": "DRV8825",
+    "Category": "Stepper Motor Driver",
+    "Tags": ["Stepper Driver", "Motor Control", "DRV8825", "Pololu Breakout"],
+    "Exposed_Pins": [
+      {
+        "Name": "VIN",
+        "Description": "Input voltage for motor power",
+        "Voltage": "Typically 8V-45V"
+      },
+      {
+        "Name": "3V3",
+        "Description": "3.3V logic power supply",
+        "Voltage": "3.3V"
+      },
+      {
+        "Name": "EN",
+        "Description": "Enable pin to activate the driver",
+        "Voltage": "Logic level (typically 3.3V or 5V)"
+      },
+      {
+        "Name": "STEP",
+        "Description": "Step pulse input to control stepper movement",
+        "Voltage": "Logic level (typically 3.3V or 5V)"
+      },
+      {
+        "Name": "DIR",
+        "Description": "Direction control input",
+        "Voltage": "Logic level (typically 3.3V or 5V)"
+      },
+      {
+        "Name": "GND",
+        "Description": "Ground connection",
+        "Voltage": "0V"
+      }
+    ]
+  }
+  

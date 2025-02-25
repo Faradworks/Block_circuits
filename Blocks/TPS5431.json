@@ -1,0 +1,27 @@
+{
+    "ID": "TPS54331_FlyBuck_24Vto5V",
+    "Name": "TPS54331 Fly-Buck Converter 24V to 5V",
+    "Description": "A Fly-Buck DC-DC converter circuit using the TPS54331 to step down 24V to 5V with compensation and filtering components.",
+    "Schematic_URL": "TPS5431.kicad_sch",
+    "MPN": "TPS54331",
+    "Category": "DC-DC Converter",
+    "Tags": ["Buck Converter", "DC-DC", "Fly-Buck", "Power Supply", "Voltage Regulation"],
+    "Exposed_Pins": [
+      {
+        "Name": "VIN",
+        "Description": "Input voltage (24V supply)",
+        "Voltage": "24V"
+      },
+      {
+        "Name": "GND",
+        "Description": "Ground connection",
+        "Voltage": "0V"
+      },
+      {
+        "Name": "5V",
+        "Description": "Regulated 5V output",
+        "Voltage": "5V"
+      }
+    ]
+  }
+  
