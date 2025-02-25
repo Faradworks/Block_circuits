@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32_S3_")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/Espressif.pretty")(options "")(descr ""))
+  (lib (name "Push Button")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/Push Button")(options "")(descr ""))
+  (lib (name "MC14093BDR2G")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/MC14093BDR2G")(options "")(descr ""))
+  (lib (name "B3F-4050")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/B3F-4050")(options "")(descr ""))
+  (lib (name "X6511WVS-02H-C60D48R1")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/01x02_SMD")(options "")(descr ""))
+)
