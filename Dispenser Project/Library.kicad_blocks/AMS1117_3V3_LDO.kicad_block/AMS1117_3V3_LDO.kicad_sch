@@ -911,6 +911,17 @@
 		)
 		(uuid "e88e7569-9842-47d5-8ca6-ce1d5a6352f1")
 	)
+	(hierarchical_label "3V3"
+		(shape output)
+		(at 109.22 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ca63c5d-f441-4422-8dfb-6931c3cb0e49")
+	)
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 66.04 71.12 90)
@@ -920,7 +931,7 @@
 			)
 			(justify left)
 		)
-		(uuid "660d0576-c78d-4208-82dd-3730af37b220")
+		(uuid "7a048138-c265-48fa-9df3-01a68c2eee34")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -931,30 +942,35 @@
 			)
 			(justify left)
 		)
-		(uuid "82379c9d-fa3a-458e-a347-39e46b1ee143")
-	)
-	(hierarchical_label "3V3"
-		(shape output)
-		(at 109.22 71.12 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e992c2f3-d2d0-4161-b905-35ad426e9396")
+		(uuid "d8681fbc-5145-417d-9621-b764d257eb1d")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 66.04 0)
+		(lib_id "Device:C")
+		(at 109.22 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0c66f47e-f537-4a28-803b-15f9e220fe7b")
-		(property "Reference" "#PWR018"
-			(at 128.27 72.39 0)
+		(uuid "182ba188-4702-4f7f-a240-0af5b6025f0e")
+		(property "Reference" "C14"
+			(at 111.125 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 108.2548 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,25 +978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 131.445 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 66.04 0)
+		(property "Datasheet" "~"
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,36 +988,67 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 66.04 0)
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "LCSC Part #" "C12891"
+			(at 109.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "1c441b6d-17d2-4d01-af30-30092d481c27")
+			(uuid "eff65383-4d09-4c7c-8bc3-6cd56146a5bd")
+		)
+		(pin "2"
+			(uuid "3d1caa35-e1df-421e-9536-95ed70651b9d")
 		)
 		(instances
 			(project "Dispenser-Rev1.0.1"
 				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
-					(reference "#PWR018")
+					(reference "C14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 87.63 0)
+		(lib_id "Device:LED")
+		(at 127 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2e61e3c2-7913-4e52-95bb-adacb60fd570")
-		(property "Reference" "#PWR017"
-			(at 87.63 93.98 0)
+		(fields_autoplaced yes)
+		(uuid "22c1d68b-1a51-4e3b-b18d-5fdd731d2f32")
+		(property "Reference" "D12"
+			(at 130.175 78.4225 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED_LED"
+			(at 130.175 80.9625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 127 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,25 +1056,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 90.805 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 87.63 0)
+		(property "Datasheet" "~"
+			(at 127 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,20 +1066,32 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 87.63 0)
+			(at 127 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "LCSC Part #" "C2286"
+			(at 127 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "1b1c3da7-6092-4e39-83ef-30f3a55ea251")
+			(uuid "49acecf7-e816-42b2-905d-68e6802725c4")
+		)
+		(pin "2"
+			(uuid "2b3a54d8-37a2-4c62-bd64-49f53ebd1869")
 		)
 		(instances
 			(project "Dispenser-Rev1.0.1"
 				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
-					(reference "#PWR017")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -1080,7 +1105,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "59556ca0-2d4a-42da-9852-3171d4bc55cb")
+		(uuid "2f8ff861-588d-452d-a29d-e87848679903")
 		(property "Reference" "U4"
 			(at 87.63 67.31 0)
 			(effects
@@ -1169,35 +1194,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 127 77.47 90)
+		(lib_id "Device:R")
+		(at 118.11 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7876b993-5a09-4679-94f7-374b804aa050")
-		(property "Reference" "D12"
-			(at 130.175 78.4225 90)
+		(uuid "4ae83921-39d8-4ed6-b204-70d75c7398c4")
+		(property "Reference" "R15"
+			(at 118.11 69.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "RED_LED"
-			(at 130.175 80.9625 90)
+		(property "Value" "4.7k"
+			(at 118.11 71.755 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 127 77.47 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.11 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1229,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 77.47 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,15 +1238,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 77.47 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC Part #" "C2286"
-			(at 127 77.47 90)
+		(property "LCSC Part #" "C23162"
+			(at 118.11 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,15 +1255,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "49acecf7-e816-42b2-905d-68e6802725c4")
+			(uuid "07154c0a-0174-46c4-87a0-c3c79a2ac395")
 		)
 		(pin "2"
-			(uuid "2b3a54d8-37a2-4c62-bd64-49f53ebd1869")
+			(uuid "8dafc49d-3285-4024-b143-56df86cf3132")
 		)
 		(instances
 			(project "Dispenser-Rev1.0.1"
 				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
-					(reference "D12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1254,7 +1277,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a3d4ce75-c0f9-4dbc-a3ec-25da4eb2a536")
+		(uuid "5fa73204-389c-4615-991a-0ee72aa77698")
 		(property "Reference" "C11"
 			(at 67.945 78.105 0)
 			(effects
@@ -1322,32 +1345,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 109.22 80.01 180)
+		(lib_id "power:GND")
+		(at 128.27 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a53abbe6-286e-405a-8549-99fd48bb8614")
-		(property "Reference" "C14"
-			(at 111.125 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22u"
-			(at 111.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 108.2548 76.2 0)
+		(uuid "b765099a-31d9-49e0-87b6-a5e07b29befc")
+		(property "Reference" "#PWR018"
+			(at 128.27 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,8 +1362,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 109.22 80.01 0)
+		(property "Value" "GND"
+			(at 131.445 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,65 +1389,36 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 80.01 0)
+			(at 128.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC Part #" "C12891"
-			(at 109.22 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "eff65383-4d09-4c7c-8bc3-6cd56146a5bd")
-		)
-		(pin "2"
-			(uuid "3d1caa35-e1df-421e-9536-95ed70651b9d")
+			(uuid "1c441b6d-17d2-4d01-af30-30092d481c27")
 		)
 		(instances
 			(project "Dispenser-Rev1.0.1"
 				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
-					(reference "C14")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 118.11 73.66 90)
+		(lib_id "power:GND")
+		(at 87.63 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8f63d35-a70e-4a04-bb81-da52f5829f23")
-		(property "Reference" "R15"
-			(at 118.11 69.215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 118.11 71.755 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.11 75.438 90)
+		(uuid "f2501438-2e6d-43aa-adf5-04e6be817193")
+		(property "Reference" "#PWR017"
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,8 +1426,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 118.11 73.66 0)
+		(property "Value" "GND"
+			(at 90.805 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,32 +1453,20 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 73.66 0)
+			(at 87.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC Part #" "C23162"
-			(at 118.11 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "07154c0a-0174-46c4-87a0-c3c79a2ac395")
-		)
-		(pin "2"
-			(uuid "8dafc49d-3285-4024-b143-56df86cf3132")
+			(uuid "1b1c3da7-6092-4e39-83ef-30f3a55ea251")
 		)
 		(instances
 			(project "Dispenser-Rev1.0.1"
 				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
-					(reference "R15")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
