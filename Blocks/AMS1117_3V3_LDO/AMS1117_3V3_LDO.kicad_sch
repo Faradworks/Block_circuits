@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "0520489b-d919-43b2-9917-7a1ff8959fd2")
+	(uuid "9b9bba6a-a4fc-4973-97d1-568385f7dce1")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -682,8 +682,8 @@
 		)
 	)
 	(rectangle
-		(start 59.69 55.88)
-		(end 140.97 93.98)
+		(start 72.39 59.69)
+		(end 153.67 97.79)
 		(stroke
 			(width 0)
 			(type default)
@@ -691,11 +691,11 @@
 		(fill
 			(type none)
 		)
-		(uuid ada56707-2c01-4330-aba3-74f5732e679b)
+		(uuid 6d0444d8-ef1f-4e9c-9a95-af3e3fc92dd1)
 	)
 	(text "AMS1117-3V3 LDO\n"
 		(exclude_from_sim no)
-		(at 64.262 63.5 0)
+		(at 76.962 67.31 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -705,248 +705,248 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6daea754-2c1a-40c3-9621-2b4368a631ba")
+		(uuid "e329b72f-c629-4de3-a51a-0a2e3331b55f")
 	)
 	(junction
-		(at 87.63 86.36)
+		(at 78.74 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2e5a19c2-5a61-4514-a8ff-75d289c72ef8")
+		(uuid "0ecb5dac-2abc-4ff5-88fe-df232da89fe2")
 	)
 	(junction
-		(at 109.22 86.36)
+		(at 121.92 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "333d3d76-c2e6-4870-bcd4-537a318d31b7")
+		(uuid "61592903-e31f-43c9-aee5-d9b7fefbc353")
 	)
 	(junction
-		(at 109.22 73.66)
+		(at 100.33 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c55613a-5421-478f-87d1-de7ee7f7273b")
+		(uuid "75451fdd-77bc-4db9-9335-8cb9a2e681db")
 	)
 	(junction
-		(at 66.04 73.66)
+		(at 121.92 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "74f28d62-42e6-4744-92a1-4068035dc8ba")
+		(uuid "d6ece0da-93e2-4ce4-9320-d9e5a2d22ecf")
 	)
 	(wire
 		(pts
-			(xy 109.22 71.12) (xy 109.22 73.66)
+			(xy 78.74 90.17) (xy 100.33 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c6eba38-2c9d-47ec-a107-b6231f2fe5f0")
+		(uuid "0ddac2f9-f681-4a78-bf88-44ef2ae8276a")
 	)
 	(wire
 		(pts
-			(xy 121.92 73.66) (xy 127 73.66)
+			(xy 107.95 77.47) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f5e72b4-38fe-4671-8c8b-5816c7ee638b")
+		(uuid "2dd500bb-386f-4c7e-ac6d-c68b1e6e554a")
 	)
 	(wire
 		(pts
-			(xy 127 81.28) (xy 127 86.36)
+			(xy 100.33 90.17) (xy 121.92 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "201f7ccc-2247-4f8d-aad3-2138f0b82b9c")
+		(uuid "375426a9-77c8-4bb4-8f55-c9b80ec6ff10")
 	)
 	(wire
 		(pts
-			(xy 128.27 64.77) (xy 132.08 64.77)
+			(xy 78.74 74.93) (xy 78.74 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2663e325-7124-4bb4-88ae-89a84a7d98a7")
+		(uuid "3a9dc5df-4b2f-4df4-96bc-7396867d46dc")
 	)
 	(wire
 		(pts
-			(xy 95.25 73.66) (xy 109.22 73.66)
+			(xy 78.74 90.17) (xy 78.74 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2918ecd8-fa16-4040-8fb8-f3a2ead1b6e9")
+		(uuid "3fa067ee-8258-48cb-a630-fb7f6317a973")
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 66.04 73.66)
+			(xy 78.74 77.47) (xy 92.71 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4aad1bbd-ccd2-45c0-a921-566652f73417")
+		(uuid "513e3bb6-5ec0-411d-b4e1-0f5d77f0661f")
 	)
 	(wire
 		(pts
-			(xy 66.04 86.36) (xy 66.04 83.82)
+			(xy 140.97 68.58) (xy 144.78 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "691a3963-303c-421d-bf44-402c13553715")
+		(uuid "62efbd0b-2bc1-4692-9887-e5b97b07f321")
 	)
 	(wire
 		(pts
-			(xy 87.63 81.28) (xy 87.63 86.36)
+			(xy 121.92 74.93) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7074ac69-7f9e-4b49-9131-650dd0c601f4")
+		(uuid "7f5c56e5-ab26-4628-b9be-490f98091970")
 	)
 	(wire
 		(pts
-			(xy 66.04 86.36) (xy 87.63 86.36)
+			(xy 134.62 77.47) (xy 139.7 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74a06120-a86c-44fc-8985-a0474aa9f79a")
+		(uuid "8771df9f-e154-43e4-aa90-6f7b670d5ca3")
 	)
 	(wire
 		(pts
-			(xy 66.04 76.2) (xy 66.04 73.66)
+			(xy 100.33 91.44) (xy 100.33 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98f30776-31e5-4530-b29a-59622061db4a")
+		(uuid "955d1e61-e458-4b12-8f36-36150adcca34")
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 127 86.36)
+			(xy 121.92 90.17) (xy 139.7 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a402d7c5-eb0f-4c63-916d-5fcc75229376")
+		(uuid "97e4c9a3-7882-470f-a752-7f178cfca468")
 	)
 	(wire
 		(pts
-			(xy 87.63 87.63) (xy 87.63 86.36)
+			(xy 100.33 85.09) (xy 100.33 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7799e03-05bc-4a7f-bb07-3771f84150de")
+		(uuid "9dc4c5fb-ff8a-405b-9223-aa774ece8b68")
 	)
 	(wire
 		(pts
-			(xy 109.22 83.82) (xy 109.22 86.36)
+			(xy 139.7 85.09) (xy 139.7 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be4ed8e5-1e0f-48b6-9341-c7c447008766")
+		(uuid "b1b373bd-c236-4499-a372-5c297ee94251")
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 128.27 64.77)
+			(xy 121.92 87.63) (xy 121.92 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7b6a014-0c24-4845-be3d-d218d918bba9")
+		(uuid "c1a151f0-0d0f-460b-9214-4889c67ddd85")
 	)
 	(wire
 		(pts
-			(xy 109.22 76.2) (xy 109.22 73.66)
+			(xy 121.92 77.47) (xy 127 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb4cce8a-f632-4e69-aa50-e544f15cde53")
+		(uuid "c533b14a-cd0c-4e40-bb7e-f4467616895c")
 	)
 	(wire
 		(pts
-			(xy 66.04 73.66) (xy 80.01 73.66)
+			(xy 140.97 69.85) (xy 140.97 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3f971bf-4ee9-41da-9161-155c609751b3")
+		(uuid "d3a50b77-7bc4-485b-a2c0-1b4b895dbf35")
 	)
 	(wire
 		(pts
-			(xy 109.22 73.66) (xy 114.3 73.66)
+			(xy 121.92 80.01) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc914a49-cf85-4376-8aff-6de6c6e1e558")
+		(uuid "e605f143-cad0-4dee-a973-76cbb31c4582")
 	)
 	(wire
 		(pts
-			(xy 87.63 86.36) (xy 109.22 86.36)
+			(xy 78.74 80.01) (xy 78.74 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e88e7569-9842-47d5-8ca6-ce1d5a6352f1")
+		(uuid "eeddd3de-718d-4e0d-a5c9-61478750097d")
 	)
 	(hierarchical_label "3V3"
 		(shape output)
-		(at 109.22 71.12 90)
+		(at 121.92 74.93 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0ca63c5d-f441-4422-8dfb-6931c3cb0e49")
-	)
-	(hierarchical_label "VIN"
-		(shape input)
-		(at 66.04 71.12 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a048138-c265-48fa-9df3-01a68c2eee34")
+		(uuid "3427da4d-97f3-43fe-83e7-f13e5a6a2cb6")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 132.08 64.77 0)
+		(at 144.78 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d8681fbc-5145-417d-9621-b764d257eb1d")
+		(uuid "900051af-e142-49af-8a5b-e06da8ba4344")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 78.74 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e985bdab-c28b-486c-bd7f-9377da21bebb")
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 80.01 180)
+		(at 121.92 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -954,7 +954,7 @@
 		(dnp no)
 		(uuid "182ba188-4702-4f7f-a240-0af5b6025f0e")
 		(property "Reference" "C14"
-			(at 111.125 78.105 0)
+			(at 126.746 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +962,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 111.76 82.55 0)
+			(at 126.746 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +970,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 108.2548 76.2 0)
+			(at 120.9548 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 80.01 0)
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 80.01 0)
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,12 +996,29 @@
 			)
 		)
 		(property "LCSC Part #" "C12891"
-			(at 109.22 80.01 0)
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "CL31A226KAHNNNE "
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 126.746 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1011,8 +1028,8 @@
 			(uuid "3d1caa35-e1df-421e-9536-95ed70651b9d")
 		)
 		(instances
-			(project "Dispenser-Rev1.0.1"
-				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
+			(project "AMS1117_3V3_LDO"
+				(path "/9b9bba6a-a4fc-4973-97d1-568385f7dce1"
 					(reference "C14")
 					(unit 1)
 				)
@@ -1021,7 +1038,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 127 77.47 90)
+		(at 139.7 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1030,7 +1047,7 @@
 		(fields_autoplaced yes)
 		(uuid "22c1d68b-1a51-4e3b-b18d-5fdd731d2f32")
 		(property "Reference" "D12"
-			(at 130.175 78.4225 90)
+			(at 142.875 82.2325 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +1056,7 @@
 			)
 		)
 		(property "Value" "RED_LED"
-			(at 130.175 80.9625 90)
+			(at 142.875 84.7725 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +1065,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 127 77.47 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1074,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 77.47 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,15 +1083,24 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 77.47 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "LCSC Part #" "C2286"
-			(at 127 77.47 90)
+		(property "LCSC Part #" "C6784992"
+			(at 139.7 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060SS75000"
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,8 +1115,8 @@
 			(uuid "2b3a54d8-37a2-4c62-bd64-49f53ebd1869")
 		)
 		(instances
-			(project "Dispenser-Rev1.0.1"
-				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
+			(project "AMS1117_3V3_LDO"
+				(path "/9b9bba6a-a4fc-4973-97d1-568385f7dce1"
 					(reference "D12")
 					(unit 1)
 				)
@@ -1099,7 +1125,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 87.63 73.66 0)
+		(at 100.33 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1107,7 +1133,7 @@
 		(dnp no)
 		(uuid "2f8ff861-588d-452d-a29d-e87848679903")
 		(property "Reference" "U4"
-			(at 87.63 67.31 0)
+			(at 100.33 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1141,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 87.63 69.85 0)
+			(at 100.33 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1149,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 87.63 68.58 0)
+			(at 100.33 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,7 +1158,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 90.17 80.01 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 73.66 0)
+			(at 100.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1175,7 @@
 			)
 		)
 		(property "JLCPCB" "C6186"
-			(at 87.63 73.66 0)
+			(at 100.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,8 +1183,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C6186"
-			(at 87.63 73.66 0)
+		(property "MPN" "AMS1117-3.3"
+			(at 100.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1193,7 @@
 			)
 		)
 		(property "LCSC Part #" "C6186"
-			(at 87.63 73.66 0)
+			(at 100.33 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,8 +1211,8 @@
 			(uuid "b5a59904-523e-4ab3-bd87-e85332a17306")
 		)
 		(instances
-			(project "Dispenser-Rev1.0.1"
-				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
+			(project "AMS1117_3V3_LDO"
+				(path "/9b9bba6a-a4fc-4973-97d1-568385f7dce1"
 					(reference "U4")
 					(unit 1)
 				)
@@ -1195,16 +1221,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 73.66 90)
+		(at 130.81 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ae83921-39d8-4ed6-b204-70d75c7398c4")
 		(property "Reference" "R15"
-			(at 118.11 69.215 90)
+			(at 130.81 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1237,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 118.11 71.755 90)
+			(at 131.064 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1245,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.11 75.438 90)
+			(at 130.81 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1254,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 73.66 0)
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1263,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 73.66 0)
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1271,16 @@
 			)
 		)
 		(property "LCSC Part #" "C23162"
-			(at 118.11 73.66 90)
+			(at 130.81 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4701T5E"
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,8 +1295,8 @@
 			(uuid "8dafc49d-3285-4024-b143-56df86cf3132")
 		)
 		(instances
-			(project "Dispenser-Rev1.0.1"
-				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
+			(project "AMS1117_3V3_LDO"
+				(path "/9b9bba6a-a4fc-4973-97d1-568385f7dce1"
 					(reference "R15")
 					(unit 1)
 				)
@@ -1271,7 +1305,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 66.04 80.01 180)
+		(at 78.74 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1279,7 +1313,7 @@
 		(dnp no)
 		(uuid "5fa73204-389c-4615-991a-0ee72aa77698")
 		(property "Reference" "C11"
-			(at 67.945 78.105 0)
+			(at 83.566 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,7 +1321,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 68.58 82.55 0)
+			(at 83.566 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +1329,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 65.0748 76.2 0)
+			(at 77.7748 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 80.01 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 80.01 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,12 +1355,29 @@
 			)
 		)
 		(property "LCSC Part #" "C12891"
-			(at 66.04 80.01 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "CL31A226KAHNNNE "
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 83.566 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1336,8 +1387,8 @@
 			(uuid "192fea2c-9ab7-4418-a358-42a45407fb34")
 		)
 		(instances
-			(project "Dispenser-Rev1.0.1"
-				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
+			(project "AMS1117_3V3_LDO"
+				(path "/9b9bba6a-a4fc-4973-97d1-568385f7dce1"
 					(reference "C11")
 					(unit 1)
 				)
@@ -1346,7 +1397,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 66.04 0)
+		(at 140.97 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1354,7 +1405,7 @@
 		(dnp no)
 		(uuid "b765099a-31d9-49e0-87b6-a5e07b29befc")
 		(property "Reference" "#PWR018"
-			(at 128.27 72.39 0)
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1414,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 131.445 67.31 0)
+			(at 144.145 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,7 +1422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 66.04 0)
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 66.04 0)
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 66.04 0)
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,8 +1451,8 @@
 			(uuid "1c441b6d-17d2-4d01-af30-30092d481c27")
 		)
 		(instances
-			(project "Dispenser-Rev1.0.1"
-				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
+			(project "AMS1117_3V3_LDO"
+				(path "/9b9bba6a-a4fc-4973-97d1-568385f7dce1"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -1410,7 +1461,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 87.63 0)
+		(at 100.33 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1418,7 +1469,7 @@
 		(dnp no)
 		(uuid "f2501438-2e6d-43aa-adf5-04e6be817193")
 		(property "Reference" "#PWR017"
-			(at 87.63 93.98 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1478,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.805 88.9 0)
+			(at 103.505 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 87.63 0)
+			(at 100.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 87.63 0)
+			(at 100.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1504,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 87.63 0)
+			(at 100.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,12 +1515,18 @@
 			(uuid "1b1c3da7-6092-4e39-83ef-30f3a55ea251")
 		)
 		(instances
-			(project "Dispenser-Rev1.0.1"
-				(path "/9423a390-54c6-434b-a8aa-9d3d8bde8ea2/863cfa48-ebe8-41ed-b129-0f9a1f5b5c35"
+			(project "AMS1117_3V3_LDO"
+				(path "/9b9bba6a-a4fc-4973-97d1-568385f7dce1"
 					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
